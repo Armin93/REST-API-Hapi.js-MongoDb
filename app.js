@@ -11,7 +11,7 @@ const joi = require('joi');
         }
     })
 
-    server.app.db=mongoose.connect("mongodb+srv://amush:021900armine@hapiapi-o5cn0.mongodb.net/test?retryWrites=true&w=majority",{
+    server.app.db=mongoose.connect("mongodb+srv://e@hapiapi-o5cn0.mongodb.net/test?retryWrites=true&w=majority",{
         useNewUrlParser:true,
         useUnifiedTopology: true 
     })
